@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #0077b6;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #00b4d8, #0077b6);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #03045e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.doctors {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.doctors h2 {
+    margin-bottom: 30px;
+}
+
+.doctor-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.doctor-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.appointment-form {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.appointment-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form .btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #0077b6;
+}
